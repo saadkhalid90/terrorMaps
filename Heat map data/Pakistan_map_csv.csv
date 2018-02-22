@@ -1,0 +1,149 @@
+objectid,province_territory,districts,shape_leng,shape_area,district_agency,status,cartodb_id,created_at,updated_at
+67,Khyber Pakhtunkhwa,Bannu,2.103026,0.116758,Bannu,District,65,2015/07/06 09:49:19,2015/07/06 09:49:19
+10,Azad Jammu & Kashmir,Sudhnutti,1.255622,0.055225,Sudhnutti,District,10,2015/07/06 09:49:19,2015/07/06 09:49:19
+27,Balochistan,Killa Abdullah,4.293911,0.436281,Killa Abdullah,District,25,2015/07/06 09:49:19,2015/07/06 09:49:19
+51,Federally Administered Tribal Areas,FR Tank,1.812708,0.109204,FR Tank,FR,49,2015/07/06 09:49:19,2015/07/06 09:49:19
+73,Khyber Pakhtunkhwa,Hangu,2.352585,0.133021,Hangu,District,71,2015/07/06 09:49:19,2015/07/06 09:49:19
+96,Punjab,Chiniot,2.746435,0.247447,Chiniot,District,94,2015/07/06 09:49:19,2015/07/06 09:49:19
+107,Punjab,Lahore,2.304896,0.164167,Lahore,District,105,2015/07/06 09:49:19,2015/07/06 09:49:19
+65,Islamabad Capital Territory,Islamabad,1.74531,0.087645,Islamabad,District,63,2015/07/06 09:49:19,2015/07/06 09:49:19
+70,Khyber Pakhtunkhwa,Charsadda,1.576697,0.097777,Charsadda,District,68,2015/07/06 09:49:19,2015/07/06 09:49:19
+82,Khyber Pakhtunkhwa,Mardan,2.086856,0.160276,Mardan,District,80,2015/07/06 09:49:19,2015/07/06 09:49:19
+1,Azad Jammu & Kashmir,Bagh,1.594116,0.067758,Bagh,District,1,2015/07/06 09:49:19,2015/07/06 09:49:19
+2,Azad Jammu & Kashmir,Bhimber,1.987888,0.117047,Bhimber,District,2,2015/07/06 09:49:19,2015/07/06 09:49:19
+3,Azad Jammu & Kashmir,Hattian,1.300416,0.066683,Hattian,District,3,2015/07/06 09:49:19,2015/07/06 09:49:19
+4,Azad Jammu & Kashmir,Haveli,1.001545,0.053722,Haveli,District,4,2015/07/06 09:49:19,2015/07/06 09:49:19
+6,Azad Jammu & Kashmir,Mirpur,1.477625,0.086768,Mirpur,District,6,2015/07/06 09:49:19,2015/07/06 09:49:19
+18,Balochistan,Sohbatpur,1.808907,0.072524,Sohbatpur,District,18,2015/07/06 09:49:19,2015/07/06 09:49:19
+39,Balochistan,Sherani,2.81312,0.290015,Sherani,District,37,2015/07/06 09:49:19,2015/07/06 09:49:19
+56,Federally Administered Tribal Areas,Orakzai Agency,2.578255,0.133221,Orakzai Agency,Agency,54,2015/07/06 09:49:19,2015/07/06 09:49:19
+40,Balochistan,Lehri,3.241817,0.304225,Lehri,District,38,2015/07/06 09:49:19,2015/07/06 09:49:19
+5,Azad Jammu & Kashmir,Kotli,2.017824,0.155069,Kotli,District,5,2015/07/06 09:49:19,2015/07/06 09:49:19
+7,Azad Jammu & Kashmir,Muzaffarabad,1.998935,0.133357,Muzaffarabad,District,7,2015/07/06 09:49:19,2015/07/06 09:49:19
+8,Azad Jammu & Kashmir,Neelum,3.913392,0.309119,Neelum,District,8,2015/07/06 09:49:19,2015/07/06 09:49:19
+9,Azad Jammu & Kashmir,Poonch,1.882087,0.070072,Poonch,District,9,2015/07/06 09:49:19,2015/07/06 09:49:19
+11,Balochistan,Awaran,8.775564,2.256718,Awaran,District,11,2015/07/06 09:49:19,2015/07/06 09:49:19
+12,Balochistan,Barkhan,3.330464,0.328535,Barkhan,District,12,2015/07/06 09:49:19,2015/07/06 09:49:19
+13,Balochistan,Chaghi,11.373019,4.117601,Chaghi,District,13,2015/07/06 09:49:19,2015/07/06 09:49:19
+14,Balochistan,Dera Bugti,5.132102,0.952769,Dera Bugti,District,14,2015/07/06 09:49:19,2015/07/06 09:49:19
+15,Balochistan,Gwadar,11.684637,1.038382,Gwadar,District,15,2015/07/06 09:49:19,2015/07/06 09:49:19
+16,Balochistan,Harnai,3.724538,0.286749,Harnai,District,16,2015/07/06 09:49:19,2015/07/06 09:49:19
+17,Balochistan,Jaffarabad,2.348028,0.156419,Jaffarabad,District,17,2015/07/06 09:49:19,2015/07/06 09:49:19
+20,Balochistan,Jhal Magsi,3.030243,0.35544,Jhal Magsi,District,19,2015/07/06 09:49:19,2015/07/06 09:49:19
+22,Balochistan,Kachhi,4.676993,0.498322,Kachhi,District,20,2015/07/06 09:49:19,2015/07/06 09:49:19
+23,Balochistan,Kalat,6.384437,1.284512,Kalat,District,21,2015/07/06 09:49:19,2015/07/06 09:49:19
+24,Balochistan,Kech,8.328577,2.201555,Kech,District,22,2015/07/06 09:49:19,2015/07/06 09:49:19
+25,Balochistan,Kharan,4.274836,0.758576,Kharan,District,23,2015/07/06 09:49:19,2015/07/06 09:49:19
+31,Balochistan,Loralai,6.269535,0.762726,Loralai,District,29,2015/07/06 09:49:19,2015/07/06 09:49:19
+26,Balochistan,Khuzdar,9.862301,2.82625,Khuzdar,District,24,2015/07/06 09:49:19,2015/07/06 09:49:19
+28,Balochistan,Killa Saifullah,6.910679,1.171068,Killa Saifullah,District,26,2015/07/06 09:49:19,2015/07/06 09:49:19
+29,Balochistan,Kohlu,5.494929,0.71964,Kohlu,District,27,2015/07/06 09:49:19,2015/07/06 09:49:19
+30,Balochistan,Lasbela,11.873281,1.265273,Lasbela,District,28,2015/07/06 09:49:19,2015/07/06 09:49:19
+47,Federally Administered Tribal Areas,FR DI Khan,2.418239,0.157607,FR DI Khan,FR,45,2015/07/06 09:49:19,2015/07/06 09:49:19
+32,Balochistan,Mastung,4.080624,0.439416,Mastung,District,30,2015/07/06 09:49:19,2015/07/06 09:49:19
+33,Balochistan,Musakhail,3.867313,0.556523,Musakhail,District,31,2015/07/06 09:49:19,2015/07/06 09:49:19
+34,Balochistan,Nasirabad,2.84252,0.29747,Nasirabad,District,32,2015/07/06 09:49:19,2015/07/06 09:49:19
+35,Balochistan,Nushki,3.308125,0.545267,Nushki,District,33,2015/07/06 09:49:19,2015/07/06 09:49:19
+36,Balochistan,Panjgur,7.207113,1.595175,Panjgur,District,34,2015/07/06 09:49:19,2015/07/06 09:49:19
+37,Balochistan,Pishin,5.15591,0.573222,Pishin,District,35,2015/07/06 09:49:19,2015/07/06 09:49:19
+38,Balochistan,Quetta,4.383484,0.351984,Quetta,District,36,2015/07/06 09:49:19,2015/07/06 09:49:19
+41,Balochistan,Sibi,4.250401,0.463205,Sibi,District,39,2015/07/06 09:49:19,2015/07/06 09:49:19
+42,Balochistan,Washuk,10.025232,3.573732,Washuk,District,40,2015/07/06 09:49:19,2015/07/06 09:49:19
+43,Balochistan,Zhob,7.769499,1.131691,Zhob,District,41,2015/07/06 09:49:19,2015/07/06 09:49:19
+44,Balochistan,Ziarat,3.664366,0.30705,Ziarat,District,42,2015/07/06 09:49:19,2015/07/06 09:49:19
+45,Federally Administered Tribal Areas,Bajaur Agency,2.060383,0.134514,Bajaur Agency,Agency,43,2015/07/06 09:49:19,2015/07/06 09:49:19
+46,Federally Administered Tribal Areas,FR Bannu,2.145786,0.078854,FR Bannu,FR,44,2015/07/06 09:49:19,2015/07/06 09:49:19
+48,Federally Administered Tribal Areas,FR Kohat,1.709675,0.044033,FR Kohat,FR,46,2015/07/06 09:49:19,2015/07/06 09:49:19
+49,Federally Administered Tribal Areas,FR Lakki Marwat,0.601421,0.017931,FR Lakki Marwat,FR,47,2015/07/06 09:49:19,2015/07/06 09:49:19
+50,Federally Administered Tribal Areas,FR Peshawar,0.987925,0.025283,FR Peshawar,FR,48,2015/07/06 09:49:19,2015/07/06 09:49:19
+52,Federally Administered Tribal Areas,Khyber Agency,3.448591,0.267982,Khyber Agency,Agency,50,2015/07/06 09:49:19,2015/07/06 09:49:19
+53,Federally Administered Tribal Areas,Kurram Agency,3.049083,0.330521,Kurram Agency,Agency,51,2015/07/06 09:49:19,2015/07/06 09:49:19
+54,Federally Administered Tribal Areas,Mohmand Agency,2.519534,0.221933,Mohmand Agency,Agency,52,2015/07/06 09:49:19,2015/07/06 09:49:19
+94,Punjab,Bhakkar,4.689864,0.805751,Bhakkar,District,92,2015/07/06 09:49:19,2015/07/06 09:49:19
+55,Federally Administered Tribal Areas,North Waziristan Agency,3.885018,0.475396,North Waziristan Agency,Agency,53,2015/07/06 09:49:19,2015/07/06 09:49:19
+57,Federally Administered Tribal Areas,South Waziristan Agency,4.831869,0.596064,South Waziristan Agency,Agency,55,2015/07/06 09:49:19,2015/07/06 09:49:19
+58,Gilgit-Baltistan,Astor,4.400488,0.507672,Astor,District,56,2015/07/06 09:49:19,2015/07/06 09:49:19
+59,Gilgit-Baltistan,Skardu,9.022782,1.834008,Skardu,District,57,2015/07/06 09:49:19,2015/07/06 09:49:19
+60,Gilgit-Baltistan,Diamir,4.906035,0.692399,Diamir,District,58,2015/07/06 09:49:19,2015/07/06 09:49:19
+61,Gilgit-Baltistan,Ghanchi,5.130986,0.859157,Ghanchi,District,59,2015/07/06 09:49:19,2015/07/06 09:49:19
+62,Gilgit-Baltistan,Ghizer,6.224834,1.208744,Ghizer,District,60,2015/07/06 09:49:19,2015/07/06 09:49:19
+63,Gilgit-Baltistan,Gilgit,3.826429,0.400978,Gilgit,District,61,2015/07/06 09:49:19,2015/07/06 09:49:19
+64,Gilgit-Baltistan,Hunza Nagar,6.910112,1.452916,Hunza Nagar,District,62,2015/07/06 09:49:19,2015/07/06 09:49:19
+66,Khyber Pakhtunkhwa,Abbottabad,2.52451,0.160185,Abbottabad,District,64,2015/07/06 09:49:19,2015/07/06 09:49:19
+68,Khyber Pakhtunkhwa,Batagram,2.27903,0.146275,Batagram,District,66,2015/07/06 09:49:19,2015/07/06 09:49:19
+69,Khyber Pakhtunkhwa,Buner,2.344769,0.170621,Buner,District,67,2015/07/06 09:49:19,2015/07/06 09:49:19
+71,Khyber Pakhtunkhwa,Chitral,8.32914,1.472802,Chitral,District,69,2015/07/06 09:49:19,2015/07/06 09:49:19
+100,Punjab,Gujrat,2.574443,0.30476,Gujrat,District,98,2015/07/06 09:49:19,2015/07/06 09:49:19
+72,Khyber Pakhtunkhwa,Dera Ismail Khan,4.671693,0.702401,Dera Ismail Khan,District,70,2015/07/06 09:49:19,2015/07/06 09:49:19
+74,Khyber Pakhtunkhwa,Haripur,3.286533,0.194115,Haripur,District,72,2015/07/06 09:49:19,2015/07/06 09:49:19
+75,Khyber Pakhtunkhwa,Karak,2.843576,0.255925,Karak,District,73,2015/07/06 09:49:19,2015/07/06 09:49:19
+76,Khyber Pakhtunkhwa,Kohat,4.332318,0.289535,Kohat,District,74,2015/07/06 09:49:19,2015/07/06 09:49:19
+77,Khyber Pakhtunkhwa,Kohistan,4.834159,0.747198,Kohistan,District,75,2015/07/06 09:49:19,2015/07/06 09:49:19
+78,Khyber Pakhtunkhwa,Lakki Marwat,2.932319,0.302895,Lakki Marwat,District,76,2015/07/06 09:49:19,2015/07/06 09:49:19
+79,Khyber Pakhtunkhwa,Lower Dir,2.100559,0.15815,Lower Dir,District,77,2015/07/06 09:49:19,2015/07/06 09:49:19
+80,Khyber Pakhtunkhwa,Malakand,1.842116,0.088939,Malakand,District,78,2015/07/06 09:49:19,2015/07/06 09:49:19
+110,Punjab,Mandi Bahauddin,2.680468,0.262889,Mandi Bahauddin,District,108,2015/07/06 09:49:19,2015/07/06 09:49:19
+81,Khyber Pakhtunkhwa,Mansehra,4.441027,0.396497,Mansehra,District,79,2015/07/06 09:49:19,2015/07/06 09:49:19
+83,Khyber Pakhtunkhwa,Nowshera,2.344644,0.168261,Nowshera,District,81,2015/07/06 09:49:19,2015/07/06 09:49:19
+84,Khyber Pakhtunkhwa,Peshawar,1.73088,0.124787,Peshawar,District,82,2015/07/06 09:49:19,2015/07/06 09:49:19
+85,Khyber Pakhtunkhwa,Shangla,2.266357,0.136431,Shangla,District,83,2015/07/06 09:49:19,2015/07/06 09:49:19
+86,Khyber Pakhtunkhwa,Swabi,2.406221,0.144698,Swabi,District,84,2015/07/06 09:49:19,2015/07/06 09:49:19
+101,Punjab,Hafizabad,2.187459,0.217407,Hafizabad,District,99,2015/07/06 09:49:19,2015/07/06 09:49:19
+87,Khyber Pakhtunkhwa,Swat,4.617585,0.529658,Swat,District,85,2015/07/06 09:49:19,2015/07/06 09:49:19
+88,Khyber Pakhtunkhwa,Tank,2.056924,0.160773,Tank,District,86,2015/07/06 09:49:19,2015/07/06 09:49:19
+89,Khyber Pakhtunkhwa,Tor Ghar,1.325066,0.04463,Tor Ghar,District,87,2015/07/06 09:49:19,2015/07/06 09:49:19
+90,Khyber Pakhtunkhwa,Upper Dir,3.608329,0.369738,Upper Dir,District,88,2015/07/06 09:49:19,2015/07/06 09:49:19
+91,Punjab,Attock,5.198711,0.670373,Attock,District,89,2015/07/06 09:49:19,2015/07/06 09:49:19
+102,Punjab,Jhang,5.240132,0.600341,Jhang,District,100,2015/07/06 09:49:19,2015/07/06 09:49:19
+92,Punjab,Bahawalnagar,7.205736,0.798843,Bahawalnagar,District,90,2015/07/06 09:49:19,2015/07/06 09:49:19
+93,Punjab,Bahawalpur,9.36768,2.215686,Bahawalpur,District,91,2015/07/06 09:49:19,2015/07/06 09:49:19
+95,Punjab,Chakwal,5.047478,0.625231,Chakwal,District,93,2015/07/06 09:49:19,2015/07/06 09:49:19
+97,Punjab,Dera Ghazi Khan,5.677864,1.104619,Dera Ghazi Khan,District,95,2015/07/06 09:49:19,2015/07/06 09:49:19
+98,Punjab,Faisalabad,4.712262,0.563082,Faisalabad,District,96,2015/07/06 09:49:19,2015/07/06 09:49:19
+99,Punjab,Gujranwala,3.163331,0.345989,Gujranwala,District,97,2015/07/06 09:49:19,2015/07/06 09:49:19
+103,Punjab,Jhelum,4.149911,0.343704,Jhelum,District,101,2015/07/06 09:49:19,2015/07/06 09:49:19
+104,Punjab,Kasur,3.492153,0.376719,Kasur,District,102,2015/07/06 09:49:19,2015/07/06 09:49:19
+105,Punjab,Khanewal,4.341348,0.408744,Khanewal,District,103,2015/07/06 09:49:19,2015/07/06 09:49:19
+106,Punjab,Khushab,4.260851,0.631147,Khushab,District,104,2015/07/06 09:49:19,2015/07/06 09:49:19
+108,Punjab,Layyah,4.112288,0.605496,Layyah,District,106,2015/07/06 09:49:19,2015/07/06 09:49:19
+109,Punjab,Lodhran,3.694975,0.248495,Lodhran,District,107,2015/07/06 09:49:19,2015/07/06 09:49:19
+111,Punjab,Mianwali,4.506156,0.572989,Mianwali,District,109,2015/07/06 09:49:19,2015/07/06 09:49:19
+112,Punjab,Multan,4.226099,0.340893,Multan,District,110,2015/07/06 09:49:19,2015/07/06 09:49:19
+113,Punjab,Muzaffargarh,6.292793,0.719198,Muzaffargarh,District,111,2015/07/06 09:49:19,2015/07/06 09:49:19
+114,Punjab,Nankana Sahib,4.179815,0.208192,Nankana Sahib,District,112,2015/07/06 09:49:19,2015/07/06 09:49:19
+115,Punjab,Narowal,2.490748,0.227294,Narowal,District,113,2015/07/06 09:49:19,2015/07/06 09:49:19
+116,Punjab,Okara,4.235141,0.417819,Okara,District,114,2015/07/06 09:49:19,2015/07/06 09:49:19
+117,Punjab,Pakpattan,4.06506,0.270477,Pakpattan,District,115,2015/07/06 09:49:19,2015/07/06 09:49:19
+118,Punjab,Rahim Yar Khan,7.231248,1.183237,Rahim Yar Khan,District,116,2015/07/06 09:49:19,2015/07/06 09:49:19
+119,Punjab,Rajanpur,6.405749,1.16711,Rajanpur,District,117,2015/07/06 09:49:19,2015/07/06 09:49:19
+120,Punjab,Rawalpindi,6.211592,0.506857,Rawalpindi,District,118,2015/07/06 09:49:19,2015/07/06 09:49:19
+121,Punjab,Sahiwal,5.071174,0.303529,Sahiwal,District,119,2015/07/06 09:49:19,2015/07/06 09:49:19
+122,Punjab,Sargodha,4.953184,0.558525,Sargodha,District,120,2015/07/06 09:49:19,2015/07/06 09:49:19
+123,Punjab,Sheikhupura,4.742158,0.345331,Sheikhupura,District,121,2015/07/06 09:49:19,2015/07/06 09:49:19
+124,Punjab,Sialkot,3.121247,0.294125,Sialkot,District,122,2015/07/06 09:49:19,2015/07/06 09:49:19
+125,Punjab,Toba Tek Singh,4.066464,0.290667,Toba Tek Singh,District,123,2015/07/06 09:49:19,2015/07/06 09:49:19
+126,Punjab,Vehari,5.242434,0.420731,Vehari,District,124,2015/07/06 09:49:19,2015/07/06 09:49:19
+127,Sindh,Badin,5.007686,0.586687,Badin,District,125,2015/07/06 09:49:19,2015/07/06 09:49:19
+128,Sindh,Dadu,4.366533,0.728184,Dadu,District,126,2015/07/06 09:49:19,2015/07/06 09:49:19
+129,Sindh,Ghotki,4.126686,0.583194,Ghotki,District,127,2015/07/06 09:49:19,2015/07/06 09:49:19
+130,Sindh,Hyderabad,1.526741,0.091366,Hyderabad,District,128,2015/07/06 09:49:19,2015/07/06 09:49:19
+131,Sindh,Jacobabad,3.019249,0.247358,Jacobabad,District,129,2015/07/06 09:49:19,2015/07/06 09:49:19
+139,Sindh,Mirpurkhas,3.506961,0.310544,Mirpurkhas,District,137,2015/07/06 09:49:19,2015/07/06 09:49:19
+132,Sindh,Jamshoro,5.594898,1.010348,Jamshoro,District,130,2015/07/06 09:49:19,2015/07/06 09:49:19
+133,Sindh,Kambar-Shahdadkot,3.255755,0.511803,Kambar-Shahdadkot,District,131,2015/07/06 09:49:19,2015/07/06 09:49:19
+134,Sindh,Karachi,5.688215,0.344323,Karachi,District,132,2015/07/06 09:49:19,2015/07/06 09:49:19
+135,Sindh,Kashmore,2.880124,0.240492,Kashmore,District,133,2015/07/06 09:49:19,2015/07/06 09:49:19
+136,Sindh,Khairpur,7.183996,1.453221,Khairpur,District,134,2015/07/06 09:49:19,2015/07/06 09:49:19
+137,Sindh,Larkana,2.857692,0.175483,Larkana,District,135,2015/07/06 09:49:19,2015/07/06 09:49:19
+138,Sindh,Matiari,2.353773,0.131188,Matiari,District,136,2015/07/06 09:49:19,2015/07/06 09:49:19
+140,Sindh,Naushehro Feroze,2.756205,0.275845,Naushehro Feroze,District,138,2015/07/06 09:49:19,2015/07/06 09:49:19
+141,Sindh,Sanghar,6.550566,0.915531,Sanghar,District,139,2015/07/06 09:49:19,2015/07/06 09:49:19
+142,Sindh,Shaheed Benazirabad,3.235958,0.414373,Shaheed Benazirabad,District,140,2015/07/06 09:49:19,2015/07/06 09:49:19
+143,Sindh,Shikarpur,2.311923,0.233996,Shikarpur,District,141,2015/07/06 09:49:19,2015/07/06 09:49:19
+144,Sindh,Sukkur,3.889808,0.472977,Sukkur,District,142,2015/07/06 09:49:19,2015/07/06 09:49:19
+145,Sindh,Tando Allah Yar,1.792012,0.138611,Tando Allah Yar,District,143,2015/07/06 09:49:19,2015/07/06 09:49:19
+146,Sindh,Tando Muhammad Khan,2.961682,0.149958,Tando Muhammad Khan,District,144,2015/07/06 09:49:19,2015/07/06 09:49:19
+147,Sindh,Tharparkar,8.072219,1.757143,Tharparkar,District,145,2015/07/06 09:49:19,2015/07/06 09:49:19
+148,Sindh,Thatta,11.229195,0.680928,Thatta,District,146,2015/07/06 09:49:19,2015/07/06 09:49:19
+151,Sindh,Sajawal,6.703949,0.772314,Sajawal,District,147,2015/07/06 09:49:19,2015/07/06 09:49:19
+155,Sindh,Umerkot,4.812043,0.492425,Umerkot,District,148,2015/07/06 09:49:19,2015/07/06 09:49:19

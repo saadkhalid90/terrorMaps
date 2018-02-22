@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## load the necessary libraries \nlibrary(readr)\nlibrary(dplyr)\n\n## read in the loaction data with districts\nsuppressWarnings(loc_with_district <- read_csv('../location_with_districts.csv'))\nmap_data <- read_csv('Pakistan_map_csv.csv')\n##warnings()\n\nacross_year_dist <- loc_with_district %>% \n  group_by(iyear, district, attackty_1) %>% \n  summarise(n_inc = n(),\n            sum_kill = sum(nkill, na.rm = T), \n            sum_wound = sum(nwound, na.rm = T)) %>%\n  filter(attackty_1 == \"Bombing/Explosion\")\n    \n## creating dataset with all years, districts and incident types\n\n## listing all unique districts, years and incident types\ndistricts <- sort(unique(map_data$districts))\nyears <- sort(unique(loc_with_district$iyear))\ninc_types <- sort(unique(loc_with_district$attackty_1))\n\nall_combs <- data.frame(iyear = rep(rep(years, length(districts)), length(inc_types)),\n                        district = rep(rep(districts, each = length(years)), each = length(inc_types)),\n                        attackty_1 = rep(rep(inc_types, length(districts)), each = length(years)))\n\nstr(all_combs)\nsuppressWarnings(all_combs_join <- all_combs %>% left_join(across_year_dist))\n\n## replacing nas with zeros\nall_combs_join[is.na(all_combs_join)] <- 0\n\nwrite.csv(all_combs_join, file = '../by_year_dist.csv', row.names = F)\n",
+    "created" : 1518866934118.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "435649479",
+    "id" : "75AC52B",
+    "lastKnownWriteTime" : 6,
+    "last_content_update" : 1519031712549,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

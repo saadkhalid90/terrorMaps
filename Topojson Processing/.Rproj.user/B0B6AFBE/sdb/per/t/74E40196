@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "## function that checks whether a package exists and if it doesn't installs it\npkg_chk_install <- function(package_name){\n  if (!(package_name %in% row.names(installed.packages()))){\n    install.packages(package_name)\n  }\n}\n\n## check and install package\npkg_chk_install(\"rjson\")\n\nlibrary(rjson)\n\n## read in district level and province level topojson\ndistrict_level <- fromJSON(file = \"pakistan_districts.topojson\")\nprov_level <- fromJSON(file = \"pakistan_prov.topojson\")\n\nlayered <- district_level\n## adding provice level info to the district level duplicate\nlayered[['objects']][['pakistan_prov']] <- prov_level$objects$pakistan_prov\n\nlength(layered$arcs)\n\nwrite(toJSON(layered), file = 'pak_dist_prov.topojson')\n",
+    "created" : 1517221199777.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2425746133",
+    "id" : "74E40196",
+    "lastKnownWriteTime" : 1517316356,
+    "last_content_update" : 1517316356031,
+    "path" : "~/Desktop/Pakistan Map/Topojson Processing/layered_topojson.R",
+    "project_path" : "layered_topojson.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

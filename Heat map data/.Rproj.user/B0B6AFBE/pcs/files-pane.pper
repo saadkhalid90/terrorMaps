@@ -1,0 +1,9 @@
+{
+    "path" : "~/Desktop/Pakistan Map/Heat map data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

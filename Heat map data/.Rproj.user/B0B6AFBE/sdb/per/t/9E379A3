@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1518867518619.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9E379A3",
+    "lastKnownWriteTime" : 3837983004263865146,
+    "last_content_update" : 1518867518619,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "52AFF1E",
+        "caption" : "Pak_map",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Pak_map&cache_key=52AFF1E",
+        "displayedObservations" : "148",
+        "environment" : "",
+        "object" : "Pak_map",
+        "preview" : "0",
+        "totalObservations" : "148",
+        "variables" : "10"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

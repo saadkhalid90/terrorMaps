@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script type="text/javascript" src="https://d3js.org/topojson.v2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.0/d3-legend.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Pakistan map</title>
+  <style id="jsbin-css">
+    .whole-strip {
+      align-items: center;
+    }
+    #title {
+      text-align: center;
+      font-weight: 600;
+    }
+    .label {
+      font-family: sans-serif;
+      font-size: 9px;
+    }
+    .legend-svg {
+      display: block;
+      margin: 0 auto;
+    }
+    svg {
+      background: #FFF;
+      opacity: 0.99;
+    }
+  </style>
+  <style>
+    html, body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+<p style = "display: flex">
+  <label for="input_year"
+         style="width: 240px; text-align: right">
+         Year = <span id="input_year-value"></span>
+  </label>
+  <input type="range" min="2000" max="2016" id="input_year">
+</p>
+
+<script>
+  document.getElementById("input_year").value = 2016;
+  var slider = document.getElementById("input_year");
+  var output = document.getElementById("input_year-value");
+  output.innerHTML = slider.value;
+
+  slider.oninput = function() {
+      output.innerHTML = this.value;
+  }
+</script>
+
+<script id="jsbin-javascript">
+
+  // defining the map div with the id "map_strip"
+  var map_block = d3.select("body")
+                    //.append("div")
+                    //.attr("id", "map_strip");
+
+  // width and height of the svg viewport
+  var width = 1000, height = 800;
+
+  // defining the projection for map (change center and scale to get desired size for the map)
+  var projection = d3.geoMercator()
+      .center([68.38, 31.5])
+      .scale([150 * 14]);
+
+  // defining the paths for the maps
+  var path = d3.geoPath().projection(projection);
+
+
+  // defining the svg view port for the map within the div
+  var svg = map_block//.append("div")
+                    //.classed("map_box_div", true)
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .style("opacity", 1)
+                    .classed("map_in_a_box", "true");
+
+  d3.json("pakistan_districts.topojson", function (error, topology) { // <-A
+
+
+      // read in the district level data
+      d3.csv("by_year_dist.csv", function(dist_data){
+
+
+        d3.select("#input_year").on("input", function() {
+          console.log(+this.value);
+          update_choropleth(+this.value);
+        });
+
+
+        console.log(dist_data);
+
+
+        // var dist_data_sub_att = dist_data_sub.filter(function(d){
+        //   return (d.district == "Attock");
+        // })
+        // .map(function(d){
+        //   return +d.sum_kill;
+        // });
+
+        //console.log(dist_data_sub);
+        //console.log(dist_data_sub_att);
+        console.log(document.getElementById("input_year").value);
+
+        var kills = dist_data.filter(function(d){
+          return (d.attackty_1 == "Bombing/Explosion");
+        })
+        .map(function(d){
+          return +d.sum_kill;
+        });
+
+        var max_kill = d3.max(kills);
+
+        // define color scale for the heat map
+        var linearScale_min1 = d3.scaleLinear()
+                                  .domain([0, max_kill])
+                                  .range([Math.exp(0), Math.exp(9)])
+        var logColorScale =  d3.scaleLog()
+                            .base(Math.E)
+                            .domain([Math.exp(0), Math.exp(9)])
+                            .range(["#FB8C00", "#B71C1C"]);
+                            //.range(["#FFC107", "#B71C1C"]);
+                            //.range(["orange", "red"]);
+
+        console.log(kills);
+        console.log(max_kill);
+
+        svg.selectAll("path")
+              .data(topojson.feature(topology, topology.objects.pakistan_districts).features)
+              .enter().append("path")
+              .attr("d", function (d, i){ return path(d)})
+              .style("opacity", 1)
+              .style("stroke", "white")
+              .style("stroke-width", 0.2)
+              .style("fill", "#FB8C00")
+
+        function update_choropleth(year){
+          // filtering the data based on year and district
+          var dist_data_sub = dist_data.filter(function(d){
+            return (d.iyear == year && d.attackty_1 == "Bombing/Explosion");
+          })
+
+          console.log(dist_data_sub);
+
+
+          svg.selectAll("path")
+                // .on("mouseover", null)
+                // .on("mouseout", null)
+                .on("mouseover", function(d, i){
+                    this.parentNode.appendChild(this);//the path group is on the top with in its parent group
+
+                    d3.select(this).style('stroke', 'black');
+                    d3.select(this).style("stroke-width", 1.5);
+                    d3.select(this).style("opacity", 1);
+                    console.log(this);
+                })
+                .on("mouseout", function(){
+                    d3.select(this).style("stroke", "white");
+                    d3.select(this).style("stroke-width", 0.2);
+                    d3.select(this).style("opacity", 0.9);
+
+                })
+                .transition()
+                .style("fill", function(d, i){return dist_data_sub.filter(function(data){
+                    return (data.district == d.properties.districts);
+                  })
+                  .map(function(data){
+                    return logColorScale(linearScale_min1(+data.sum_kill));
+                  });
+                })
+                .style("opacity", 0.8)
+                .attr("class", "district");
+                //.transition()
+
+        }
+
+        update_choropleth(document.getElementById("input_year").value);
+
+        d3.select("#input_year").on("input", function() {
+          console.log(+this.value);
+          update_choropleth(+this.value);
+        });
+
+      })
+
+  });
+</script>
+</body>
+</html>

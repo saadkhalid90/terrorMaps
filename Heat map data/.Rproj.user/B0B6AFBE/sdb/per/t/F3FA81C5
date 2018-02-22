@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519025873909.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F3FA81C5",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1519025873909,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D7511B3E",
+        "caption" : "all_combs_join",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=all_combs_join&cache_key=D7511B3E",
+        "displayedObservations" : "22644",
+        "environment" : "",
+        "object" : "all_combs_join",
+        "preview" : "0",
+        "totalObservations" : "22644",
+        "variables" : "6"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
