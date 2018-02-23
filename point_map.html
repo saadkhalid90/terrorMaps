@@ -70,6 +70,10 @@
 
   // width and height of the svg viewport
   var width = 1000, height = 800;
+  // initializing the zoom behaviour, call the event listeneer zoomFunction when a zoom is detected
+  var zoom = d3.behavior.zoom()
+                .scaleExtent([1, 8])
+                .on("zoom", zoomFunction)
 
   // defining the projection for map (change center and scale to get desired size for the map)
   var projection = d3.geoMercator()
@@ -86,13 +90,17 @@
                     .attr("width", width)
                     .attr("height", height)
                     .style("opacity", 1)
-                    .classed("map_in_a_box", "true");
+                    .classed("map_in_a_box", "true")
+                    .append("g")
+                    .classed("map_group", "true");
 
   d3.json("pakistan_districts.topojson", function (error, topology) { // <-A
       console.log(topojson.feature(topology, topology.objects.pakistan_districts).features.map(function(d){
         return d.properties.province_territory;
       }));
       //console.log(topojson.feature(topology.objects.pakistan_districts));
+
+
       svg.selectAll("path")
             .data(topojson.feature(topology, topology.objects.pakistan_districts).features)
             .enter().append("path")
@@ -108,13 +116,19 @@
             //.style("fill", "#81C784")
             .style("fill", "#66BB6A")
             .style("opacity", 0.9)
-            .attr("class", "district")
+            .attr("class", "district");
+
+      svg.call(zoom);
+
 
       // get the terrorism data in
       d3.csv('globalterrorismdb_edited_sorted.csv', function(data_terror){
         console.log(data_terror);
         function update_points(year){
           svg.selectAll("circle").remove()
+
+          svg.selectAll("path")
+              .attr("transform", "translate(0, 0)" + " scale(1)");
 
           svg.selectAll("circle")
             .data(data_terror.filter(function(d){
@@ -162,8 +176,20 @@
 
       })
 
-
   });
+
+  function zoomFunction(){
+    // get the requisite params to be used in translation of paths when zoomed
+    // panning params
+    var panVector = d3.event.translate;
+    // zooming params
+    var scaleMultiplier = d3.event.scale;
+    d3.selectAll("path")
+      .attr("transform", "translate(" + panVector + ") " + "scale(" + scaleMultiplier + ")");
+    d3.selectAll("circle")
+      .attr("transform", "translate(" + panVector + ") " + "scale(" + scaleMultiplier + ")");
+  }
+
 </script>
 </body>
 </html>
